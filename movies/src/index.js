@@ -8,7 +8,7 @@ import { store } from './store';
 import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL = 'http://localhost:3000';
+axios.defaults.baseURL = 'https://cine-now-backend.vercel.app/';
 root.render(
   <React.StrictMode>
     <BrowserRouter>
