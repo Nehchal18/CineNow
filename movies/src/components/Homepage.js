@@ -17,8 +17,8 @@ console.log(movies);
     <Box width="100%" height="100%" marginTop={2}>
       <Box margin={"auto"} width={"80%"} height={"40vh"} padding={2}>
         <img
-          src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
-          alt="movie"
+          src="https://i.ytimg.com/vi/yEinBUJG2RI/maxresdefault.jpg"
+          alt="Rocketry"
           width="100%"
           height="100%"
         />

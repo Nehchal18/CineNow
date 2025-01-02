@@ -51,7 +51,6 @@ import {
           >
             {!isAdmin && isSignup && (
               <>
-                {" "}
                 <FormLabel sx={labelStyle}>Name</FormLabel>
                 <TextField
                   value={inputs.name}
@@ -65,7 +64,6 @@ import {
             )}
             {!isAdmin && isSignup && (
               <>
-                {" "}
                 <FormLabel sx={labelStyle}>Username</FormLabel>
                 <TextField
                   value={inputs.username}
@@ -73,7 +71,7 @@ import {
                   margin="normal"
                   variant="standard"
                   type={"text"}
-                  name="name"
+                  name="username"
                 />
               </>
             )}
